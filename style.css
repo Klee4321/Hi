@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+
+html {
+  font-family: 'Moirai One';
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: thistle;
+  padding: 4em;
+}
+
+nav a {
+  color: #f5b2f3;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  color: #b0c2ff;
+  font-style: italic;
+}
+
+header,
+main {
+  background-color: #ffb5af;
+  padding: 1em;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+/* Make sections look nicer */
+main section {
+  background-color: #f7c7e4;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: white;
+  padding: 1em 2em;
+  margin: 1em 0;
+}
+
+/* For image pork slider */
+.arrow {
+  /* Class starts with . */
+  border: solid white;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 20px;
+}
+
+.left {
+  transform: rotate(135deg);
+}
+
+.right {
+  transform: rotate(-45deg);
+}
+
+#image-slider {
+  align-items: center;
+  display: flex;
+}
+
+/* Change facts to bubbles */
+#facts {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+#facts li {
+  background-color: lightpink;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 0.20em;
+}
+
+#facts li:nth-child(2n) {
+  background-color: plum;
+}
